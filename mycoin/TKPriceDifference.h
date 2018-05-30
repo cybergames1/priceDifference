@@ -10,4 +10,8 @@
 
 @interface TKPriceDifference : NSObject
 
++ (instancetype)sharedManager;
+
+- (void)getDepthFromMarkets;
+
 @end

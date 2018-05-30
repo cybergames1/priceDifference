@@ -3,10 +3,26 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 48;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		348A2FF920B8DE2200E20102 /* QYPPAlertView_.m in Sources */ = {isa = PBXBuildFile; fileRef = 348A2FC820B8DE2200E20102 /* QYPPAlertView_.m */; };
+		348A2FFA20B8DE2200E20102 /* QYPPTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 348A2FCB20B8DE2200E20102 /* QYPPTableView.m */; };
+		348A2FFB20B8DE2200E20102 /* QYPPTableViewSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 348A2FCC20B8DE2200E20102 /* QYPPTableViewSource.m */; };
+		348A2FFC20B8DE2200E20102 /* UIView+QYPPSizes.m in Sources */ = {isa = PBXBuildFile; fileRef = 348A2FD220B8DE2200E20102 /* UIView+QYPPSizes.m */; };
+		348A2FFD20B8DE2200E20102 /* QYPPListViewSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 348A2FD620B8DE2200E20102 /* QYPPListViewSource.m */; };
+		348A2FFE20B8DE2200E20102 /* QYPPListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 348A2FD720B8DE2200E20102 /* QYPPListViewController.m */; };
+		348A2FFF20B8DE2200E20102 /* QYPPTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 348A2FD920B8DE2200E20102 /* QYPPTabBar.m */; };
+		348A300020B8DE2200E20102 /* QYPPBarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 348A2FDB20B8DE2200E20102 /* QYPPBarItem.m */; };
+		348A300120B8DE2200E20102 /* QYPPTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 348A2FDC20B8DE2200E20102 /* QYPPTabBarController.m */; };
+		348A300220B8DE2200E20102 /* QYPPCollectionViewSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 348A2FE020B8DE2200E20102 /* QYPPCollectionViewSource.m */; };
+		348A300320B8DE2200E20102 /* QYPPCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 348A2FE220B8DE2200E20102 /* QYPPCollectionView.m */; };
+		348A300420B8DE2200E20102 /* NSString+TK.m in Sources */ = {isa = PBXBuildFile; fileRef = 348A2FE720B8DE2200E20102 /* NSString+TK.m */; };
+		348A300520B8DE2200E20102 /* TKBaseAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 348A2FE820B8DE2200E20102 /* TKBaseAPI.m */; };
+		348A300620B8DE2200E20102 /* TKRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 348A2FEA20B8DE2200E20102 /* TKRequest.m */; };
+		348A300720B8DE2200E20102 /* TKModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 348A2FF520B8DE2200E20102 /* TKModel.m */; };
+		348A300B20BAF6BF00E20102 /* TKPriceDifference.m in Sources */ = {isa = PBXBuildFile; fileRef = 348A300A20BAF6BF00E20102 /* TKPriceDifference.m */; };
 		34CF608C20B84E98000F6D1C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 34CF608B20B84E98000F6D1C /* AppDelegate.m */; };
 		34CF608F20B84E98000F6D1C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34CF608E20B84E98000F6D1C /* ViewController.m */; };
 		34CF609220B84E98000F6D1C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34CF609020B84E98000F6D1C /* Main.storyboard */; };
@@ -15,6 +31,7 @@
 		34CF609A20B84E9A000F6D1C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 34CF609920B84E9A000F6D1C /* main.m */; };
 		34CF60A420B84E9A000F6D1C /* mycoinTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 34CF60A320B84E9A000F6D1C /* mycoinTests.m */; };
 		34CF60AF20B84E9A000F6D1C /* mycoinUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 34CF60AE20B84E9A000F6D1C /* mycoinUITests.m */; };
+		CF7592FF4AEBBAC1D5C9B54C /* libPods-mycoin.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B9162BEB1F9DB660E30B4EAF /* libPods-mycoin.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +52,42 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		27476E78206C044D8FEC1B97 /* Pods-mycoin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mycoin.debug.xcconfig"; path = "Pods/Target Support Files/Pods-mycoin/Pods-mycoin.debug.xcconfig"; sourceTree = "<group>"; };
+		348A2FC820B8DE2200E20102 /* QYPPAlertView_.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QYPPAlertView_.m; sourceTree = "<group>"; };
+		348A2FC920B8DE2200E20102 /* QYPPAlertView_.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QYPPAlertView_.h; sourceTree = "<group>"; };
+		348A2FCB20B8DE2200E20102 /* QYPPTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QYPPTableView.m; sourceTree = "<group>"; };
+		348A2FCC20B8DE2200E20102 /* QYPPTableViewSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QYPPTableViewSource.m; sourceTree = "<group>"; };
+		348A2FCD20B8DE2200E20102 /* QYPPTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QYPPTableView.h; sourceTree = "<group>"; };
+		348A2FCE20B8DE2200E20102 /* QYPPTableViewSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QYPPTableViewSource.h; sourceTree = "<group>"; };
+		348A2FCF20B8DE2200E20102 /* TKUIKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TKUIKit.h; sourceTree = "<group>"; };
+		348A2FD120B8DE2200E20102 /* UIView+QYPPSizes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+QYPPSizes.h"; sourceTree = "<group>"; };
+		348A2FD220B8DE2200E20102 /* UIView+QYPPSizes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+QYPPSizes.m"; sourceTree = "<group>"; };
+		348A2FD420B8DE2200E20102 /* QYPPListViewSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QYPPListViewSource.h; sourceTree = "<group>"; };
+		348A2FD520B8DE2200E20102 /* QYPPListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QYPPListViewController.h; sourceTree = "<group>"; };
+		348A2FD620B8DE2200E20102 /* QYPPListViewSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QYPPListViewSource.m; sourceTree = "<group>"; };
+		348A2FD720B8DE2200E20102 /* QYPPListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QYPPListViewController.m; sourceTree = "<group>"; };
+		348A2FD920B8DE2200E20102 /* QYPPTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QYPPTabBar.m; sourceTree = "<group>"; };
+		348A2FDA20B8DE2200E20102 /* QYPPTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QYPPTabBarController.h; sourceTree = "<group>"; };
+		348A2FDB20B8DE2200E20102 /* QYPPBarItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QYPPBarItem.m; sourceTree = "<group>"; };
+		348A2FDC20B8DE2200E20102 /* QYPPTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QYPPTabBarController.m; sourceTree = "<group>"; };
+		348A2FDD20B8DE2200E20102 /* QYPPTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QYPPTabBar.h; sourceTree = "<group>"; };
+		348A2FDE20B8DE2200E20102 /* QYPPBarItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QYPPBarItem.h; sourceTree = "<group>"; };
+		348A2FE020B8DE2200E20102 /* QYPPCollectionViewSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QYPPCollectionViewSource.m; sourceTree = "<group>"; };
+		348A2FE120B8DE2200E20102 /* QYPPCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QYPPCollectionView.h; sourceTree = "<group>"; };
+		348A2FE220B8DE2200E20102 /* QYPPCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QYPPCollectionView.m; sourceTree = "<group>"; };
+		348A2FE320B8DE2200E20102 /* QYPPCollectionViewSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QYPPCollectionViewSource.h; sourceTree = "<group>"; };
+		348A2FE620B8DE2200E20102 /* NSString+TK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+TK.h"; sourceTree = "<group>"; };
+		348A2FE720B8DE2200E20102 /* NSString+TK.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+TK.m"; sourceTree = "<group>"; };
+		348A2FE820B8DE2200E20102 /* TKBaseAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TKBaseAPI.m; sourceTree = "<group>"; };
+		348A2FEA20B8DE2200E20102 /* TKRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TKRequest.m; sourceTree = "<group>"; };
+		348A2FEE20B8DE2200E20102 /* TKRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TKRequest.h; sourceTree = "<group>"; };
+		348A2FF520B8DE2200E20102 /* TKModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TKModel.m; sourceTree = "<group>"; };
+		348A2FF620B8DE2200E20102 /* TKModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TKModel.h; sourceTree = "<group>"; };
+		348A2FF720B8DE2200E20102 /* TKBaseAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TKBaseAPI.h; sourceTree = "<group>"; };
+		348A2FF820B8DE2200E20102 /* BaseDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseDefines.h; sourceTree = "<group>"; };
+		348A300820B8DEAF00E20102 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		348A300920BAF6BF00E20102 /* TKPriceDifference.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TKPriceDifference.h; sourceTree = "<group>"; };
+		348A300A20BAF6BF00E20102 /* TKPriceDifference.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TKPriceDifference.m; sourceTree = "<group>"; };
 		34CF608720B84E98000F6D1C /* mycoin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mycoin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		34CF608A20B84E98000F6D1C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		34CF608B20B84E98000F6D1C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +104,8 @@
 		34CF60AA20B84E9A000F6D1C /* mycoinUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mycoinUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		34CF60AE20B84E9A000F6D1C /* mycoinUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = mycoinUITests.m; sourceTree = "<group>"; };
 		34CF60B020B84E9A000F6D1C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AEAF5ABBC5171AF14038891D /* Pods-mycoin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mycoin.release.xcconfig"; path = "Pods/Target Support Files/Pods-mycoin/Pods-mycoin.release.xcconfig"; sourceTree = "<group>"; };
+		B9162BEB1F9DB660E30B4EAF /* libPods-mycoin.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-mycoin.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +113,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF7592FF4AEBBAC1D5C9B54C /* libPods-mycoin.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +134,197 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		348A2FC520B8DE2200E20102 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				348A2FC620B8DE2200E20102 /* UIKit */,
+				348A2FE420B8DE2200E20102 /* Foundation */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		348A2FC620B8DE2200E20102 /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				348A2FC720B8DE2200E20102 /* QYPPAlertView */,
+				348A2FCA20B8DE2200E20102 /* QYPPTableView */,
+				348A2FCF20B8DE2200E20102 /* TKUIKit.h */,
+				348A2FD020B8DE2200E20102 /* BaseCategory */,
+				348A2FD320B8DE2200E20102 /* QYPPListViewController */,
+				348A2FD820B8DE2200E20102 /* QYPPTabBarController */,
+				348A2FDF20B8DE2200E20102 /* QYPPCollectionView */,
+			);
+			path = UIKit;
+			sourceTree = "<group>";
+		};
+		348A2FC720B8DE2200E20102 /* QYPPAlertView */ = {
+			isa = PBXGroup;
+			children = (
+				348A2FC820B8DE2200E20102 /* QYPPAlertView_.m */,
+				348A2FC920B8DE2200E20102 /* QYPPAlertView_.h */,
+			);
+			path = QYPPAlertView;
+			sourceTree = "<group>";
+		};
+		348A2FCA20B8DE2200E20102 /* QYPPTableView */ = {
+			isa = PBXGroup;
+			children = (
+				348A2FCB20B8DE2200E20102 /* QYPPTableView.m */,
+				348A2FCC20B8DE2200E20102 /* QYPPTableViewSource.m */,
+				348A2FCD20B8DE2200E20102 /* QYPPTableView.h */,
+				348A2FCE20B8DE2200E20102 /* QYPPTableViewSource.h */,
+			);
+			path = QYPPTableView;
+			sourceTree = "<group>";
+		};
+		348A2FD020B8DE2200E20102 /* BaseCategory */ = {
+			isa = PBXGroup;
+			children = (
+				348A2FD120B8DE2200E20102 /* UIView+QYPPSizes.h */,
+				348A2FD220B8DE2200E20102 /* UIView+QYPPSizes.m */,
+			);
+			path = BaseCategory;
+			sourceTree = "<group>";
+		};
+		348A2FD320B8DE2200E20102 /* QYPPListViewController */ = {
+			isa = PBXGroup;
+			children = (
+				348A2FD420B8DE2200E20102 /* QYPPListViewSource.h */,
+				348A2FD520B8DE2200E20102 /* QYPPListViewController.h */,
+				348A2FD620B8DE2200E20102 /* QYPPListViewSource.m */,
+				348A2FD720B8DE2200E20102 /* QYPPListViewController.m */,
+			);
+			path = QYPPListViewController;
+			sourceTree = "<group>";
+		};
+		348A2FD820B8DE2200E20102 /* QYPPTabBarController */ = {
+			isa = PBXGroup;
+			children = (
+				348A2FD920B8DE2200E20102 /* QYPPTabBar.m */,
+				348A2FDA20B8DE2200E20102 /* QYPPTabBarController.h */,
+				348A2FDB20B8DE2200E20102 /* QYPPBarItem.m */,
+				348A2FDC20B8DE2200E20102 /* QYPPTabBarController.m */,
+				348A2FDD20B8DE2200E20102 /* QYPPTabBar.h */,
+				348A2FDE20B8DE2200E20102 /* QYPPBarItem.h */,
+			);
+			path = QYPPTabBarController;
+			sourceTree = "<group>";
+		};
+		348A2FDF20B8DE2200E20102 /* QYPPCollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				348A2FE020B8DE2200E20102 /* QYPPCollectionViewSource.m */,
+				348A2FE120B8DE2200E20102 /* QYPPCollectionView.h */,
+				348A2FE220B8DE2200E20102 /* QYPPCollectionView.m */,
+				348A2FE320B8DE2200E20102 /* QYPPCollectionViewSource.h */,
+			);
+			path = QYPPCollectionView;
+			sourceTree = "<group>";
+		};
+		348A2FE420B8DE2200E20102 /* Foundation */ = {
+			isa = PBXGroup;
+			children = (
+				348A2FE520B8DE2200E20102 /* category */,
+				348A2FE820B8DE2200E20102 /* TKBaseAPI.m */,
+				348A2FE920B8DE2200E20102 /* network */,
+				348A2FEF20B8DE2200E20102 /* model */,
+				348A2FF720B8DE2200E20102 /* TKBaseAPI.h */,
+				348A2FF820B8DE2200E20102 /* BaseDefines.h */,
+			);
+			path = Foundation;
+			sourceTree = "<group>";
+		};
+		348A2FE520B8DE2200E20102 /* category */ = {
+			isa = PBXGroup;
+			children = (
+				348A2FE620B8DE2200E20102 /* NSString+TK.h */,
+				348A2FE720B8DE2200E20102 /* NSString+TK.m */,
+			);
+			path = category;
+			sourceTree = "<group>";
+		};
+		348A2FE920B8DE2200E20102 /* network */ = {
+			isa = PBXGroup;
+			children = (
+				348A2FEA20B8DE2200E20102 /* TKRequest.m */,
+				348A2FEB20B8DE2200E20102 /* AFNetwork */,
+				348A2FEE20B8DE2200E20102 /* TKRequest.h */,
+			);
+			path = network;
+			sourceTree = "<group>";
+		};
+		348A2FEB20B8DE2200E20102 /* AFNetwork */ = {
+			isa = PBXGroup;
+			children = (
+				348A2FEC20B8DE2200E20102 /* UIKit+AFNetworking */,
+				348A2FED20B8DE2200E20102 /* AFNetworking */,
+			);
+			path = AFNetwork;
+			sourceTree = "<group>";
+		};
+		348A2FEC20B8DE2200E20102 /* UIKit+AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "UIKit+AFNetworking";
+			sourceTree = "<group>";
+		};
+		348A2FED20B8DE2200E20102 /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = AFNetworking;
+			sourceTree = "<group>";
+		};
+		348A2FEF20B8DE2200E20102 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				348A2FF020B8DE2200E20102 /* JSModel */,
+				348A2FF520B8DE2200E20102 /* TKModel.m */,
+				348A2FF620B8DE2200E20102 /* TKModel.h */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		348A2FF020B8DE2200E20102 /* JSModel */ = {
+			isa = PBXGroup;
+			children = (
+				348A2FF120B8DE2200E20102 /* JSONModel */,
+			);
+			path = JSModel;
+			sourceTree = "<group>";
+		};
+		348A2FF120B8DE2200E20102 /* JSONModel */ = {
+			isa = PBXGroup;
+			children = (
+				348A2FF220B8DE2200E20102 /* JSONModelTransformations */,
+				348A2FF320B8DE2200E20102 /* JSONModel */,
+				348A2FF420B8DE2200E20102 /* JSONModelNetworking */,
+			);
+			path = JSONModel;
+			sourceTree = "<group>";
+		};
+		348A2FF220B8DE2200E20102 /* JSONModelTransformations */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = JSONModelTransformations;
+			sourceTree = "<group>";
+		};
+		348A2FF320B8DE2200E20102 /* JSONModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = JSONModel;
+			sourceTree = "<group>";
+		};
+		348A2FF420B8DE2200E20102 /* JSONModelNetworking */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = JSONModelNetworking;
+			sourceTree = "<group>";
+		};
 		34CF607E20B84E98000F6D1C = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +332,8 @@
 				34CF60A220B84E9A000F6D1C /* mycoinTests */,
 				34CF60AD20B84E9A000F6D1C /* mycoinUITests */,
 				34CF608820B84E98000F6D1C /* Products */,
+				8F84498A017E137C5579C62B /* Pods */,
+				5458CC9851886D891E7552F2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +350,7 @@
 		34CF608920B84E98000F6D1C /* mycoin */ = {
 			isa = PBXGroup;
 			children = (
+				348A2FC520B8DE2200E20102 /* Base */,
 				34CF608A20B84E98000F6D1C /* AppDelegate.h */,
 				34CF608B20B84E98000F6D1C /* AppDelegate.m */,
 				34CF608D20B84E98000F6D1C /* ViewController.h */,
@@ -110,6 +360,9 @@
 				34CF609520B84E9A000F6D1C /* LaunchScreen.storyboard */,
 				34CF609820B84E9A000F6D1C /* Info.plist */,
 				34CF609920B84E9A000F6D1C /* main.m */,
+				348A300820B8DEAF00E20102 /* PrefixHeader.pch */,
+				348A300920BAF6BF00E20102 /* TKPriceDifference.h */,
+				348A300A20BAF6BF00E20102 /* TKPriceDifference.m */,
 			);
 			path = mycoin;
 			sourceTree = "<group>";
@@ -132,6 +385,23 @@
 			path = mycoinUITests;
 			sourceTree = "<group>";
 		};
+		5458CC9851886D891E7552F2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B9162BEB1F9DB660E30B4EAF /* libPods-mycoin.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8F84498A017E137C5579C62B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				27476E78206C044D8FEC1B97 /* Pods-mycoin.debug.xcconfig */,
+				AEAF5ABBC5171AF14038891D /* Pods-mycoin.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,9 +409,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 34CF60B320B84E9A000F6D1C /* Build configuration list for PBXNativeTarget "mycoin" */;
 			buildPhases = (
+				DBBCA5F1BC85BEA132E4CC85 /* [CP] Check Pods Manifest.lock */,
 				34CF608320B84E98000F6D1C /* Sources */,
 				34CF608420B84E98000F6D1C /* Frameworks */,
 				34CF608520B84E98000F6D1C /* Resources */,
+				B95D5F6BEC94A859BD1C5DFE /* [CP] Embed Pods Frameworks */,
+				7FC45CF97F85219549854B7E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -199,19 +472,22 @@
 				TargetAttributes = {
 					34CF608620B84E98000F6D1C = {
 						CreatedOnToolsVersion = 9.3.1;
+						ProvisioningStyle = Automatic;
 					};
 					34CF609E20B84E9A000F6D1C = {
 						CreatedOnToolsVersion = 9.3.1;
+						ProvisioningStyle = Automatic;
 						TestTargetID = 34CF608620B84E98000F6D1C;
 					};
 					34CF60A920B84E9A000F6D1C = {
 						CreatedOnToolsVersion = 9.3.1;
+						ProvisioningStyle = Automatic;
 						TestTargetID = 34CF608620B84E98000F6D1C;
 					};
 				};
 			};
 			buildConfigurationList = 34CF608220B84E98000F6D1C /* Build configuration list for PBXProject "mycoin" */;
-			compatibilityVersion = "Xcode 9.3";
+			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -257,14 +533,84 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		7FC45CF97F85219549854B7E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-mycoin/Pods-mycoin-resources.sh",
+				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-mycoin/Pods-mycoin-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B95D5F6BEC94A859BD1C5DFE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-mycoin/Pods-mycoin-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DBBCA5F1BC85BEA132E4CC85 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-mycoin-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		34CF608320B84E98000F6D1C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				348A2FFB20B8DE2200E20102 /* QYPPTableViewSource.m in Sources */,
+				348A300420B8DE2200E20102 /* NSString+TK.m in Sources */,
+				348A2FFD20B8DE2200E20102 /* QYPPListViewSource.m in Sources */,
 				34CF608F20B84E98000F6D1C /* ViewController.m in Sources */,
+				348A300720B8DE2200E20102 /* TKModel.m in Sources */,
+				348A2FFC20B8DE2200E20102 /* UIView+QYPPSizes.m in Sources */,
 				34CF609A20B84E9A000F6D1C /* main.m in Sources */,
+				348A300620B8DE2200E20102 /* TKRequest.m in Sources */,
+				348A2FFF20B8DE2200E20102 /* QYPPTabBar.m in Sources */,
+				348A2FFE20B8DE2200E20102 /* QYPPListViewController.m in Sources */,
+				348A2FFA20B8DE2200E20102 /* QYPPTableView.m in Sources */,
+				348A300320B8DE2200E20102 /* QYPPCollectionView.m in Sources */,
+				348A300520B8DE2200E20102 /* TKBaseAPI.m in Sources */,
 				34CF608C20B84E98000F6D1C /* AppDelegate.m in Sources */,
+				348A300020B8DE2200E20102 /* QYPPBarItem.m in Sources */,
+				348A2FF920B8DE2200E20102 /* QYPPAlertView_.m in Sources */,
+				348A300120B8DE2200E20102 /* QYPPTabBarController.m in Sources */,
+				348A300B20BAF6BF00E20102 /* TKPriceDifference.m in Sources */,
+				348A300220B8DE2200E20102 /* QYPPCollectionViewSource.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -431,35 +777,35 @@
 		};
 		34CF60B420B84E9A000F6D1C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 27476E78206C044D8FEC1B97 /* Pods-mycoin.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2D366TPZ8S;
+				GCC_PREFIX_HEADER = mycoin/PrefixHeader.pch;
 				INFOPLIST_FILE = mycoin/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jianting.mycoin;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		34CF60B520B84E9A000F6D1C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AEAF5ABBC5171AF14038891D /* Pods-mycoin.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2D366TPZ8S;
+				GCC_PREFIX_HEADER = mycoin/PrefixHeader.pch;
 				INFOPLIST_FILE = mycoin/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jianting.mycoin;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -470,11 +816,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2D366TPZ8S;
 				INFOPLIST_FILE = mycoinTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jianting.mycoinTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -489,11 +831,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2D366TPZ8S;
 				INFOPLIST_FILE = mycoinTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jianting.mycoinTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -507,11 +845,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2D366TPZ8S;
 				INFOPLIST_FILE = mycoinUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jianting.mycoinUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -525,11 +859,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2D366TPZ8S;
 				INFOPLIST_FILE = mycoinUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jianting.mycoinUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
